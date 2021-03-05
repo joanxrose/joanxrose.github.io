@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.intro {
+    //background-color: cadetblue;
+    display: flex;
+    padding: 150px 50px 25px 50px;
+    max-width: 1000px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.left {
+    // background-color: blanchedalmond;
+    max-width: 600px;
+    padding-top: 75px;
+    padding-left: 15px;
+}
+
+.left h1 {
+    color: #D15523;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.left h1:hover {
+    color: #E17A51;
+}
+
+.left p {
+    color: #0A090C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.right {
+    //background-color: darkorange;
+}
+
+.me {
+    max-width: 300px;
+    height: 300px;
+}
