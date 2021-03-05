@@ -1,5 +1,16 @@
 body {
     margin: 0;
+    min-height: 100vh;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+h1, h2 {
+    font-family: 'Paytone One', sans-serif;
 }
 
 /** style for the intro div **/
@@ -16,11 +27,11 @@ body {
     max-width: 600px;
     padding-top: 75px;
     padding-left: 15px;
+    color: #0A090C;
 }
 
 .left-name h1 {
     color: #D15523;
-    font-family: 'Paytone One', sans-serif;
     font-size: 3.5rem;
     margin: 0;
 }
@@ -30,14 +41,7 @@ body {
     color: #E17A51;
 }
 
-.left-name p {
-    color: #0A090C;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-/** resize of the picture **/
+/** resize the picture **/
 .me {
     max-width: 300px;
     height: 300px;
@@ -48,42 +52,47 @@ body {
 .subjects {
     background-color: #DE6C3F;
     color: #FFF;
+}
+
+.subjects-inner {
     display: flex;
     padding: 50px 40px 60px 73px;
     max-width: 1000px;
     justify-content: inline-flex;
-    gap: 118px;
+    gap: 135px;
     flex-wrap: wrap;
     margin: 0 auto;
-
 }
 
-.left-cmsc {
+.left-cmsc, .right-ge {
     max-width: 420px;
 }
 
-.right-ge {
-    max-width: 420px;
-}
-
-.left-cmsc h2 {
-    font-family: 'Paytone One', sans-serif;
+.left-cmsc h2, .right-ge h2 {
     font-size: 2.1rem;
 } 
 
-.left-cmsc p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
+
+/** style for the others div **/
+.others {
+    display: flex;
+    padding: 50px 50px 100px 75px;
+    max-width: 1000px;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.right-ge h2 {
-    font-family: 'Paytone One', sans-serif;
+.others h2 {
     font-size: 2.1rem;
+    color: #D15523;
 }
 
-.right-ge p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
+
+/** footer **/ 
+.footer {
+    background-color: #D15523;
+    color: #FFF;
+    text-align: center;
+    border: solid;
 }
